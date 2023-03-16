@@ -15,6 +15,7 @@ padding-bottom: 20px;
 
 
 
+
 }
 
 
@@ -25,7 +26,8 @@ padding-bottom: 20px;
   width: 100%;
   top: 0;
   left: 0;
- background-color: rgba(174, 226, 181, 0.418);
+ background-color: rgba(252 252 252);
+ background-size: 100px;
 }
 li{
 
@@ -33,7 +35,7 @@ margin-inline: 50px;
 list-style: none;
 font-size: large;
 font-weight: 30px;
-font-family: Arial, Helvetica, sans-serif;
+font-family: Courier;
 font-variant-caps: unicase;
 
 
@@ -41,17 +43,19 @@ font-variant-caps: unicase;
 }
 li :hover{
 
-  background-color: rgb(148, 219, 160);
+  transform: scale(1.0);
+  background-color: rgb(245, 230, 29);
   border-width: 300px;
 
 }
 
 
 
+
 a{
 text-decoration: none;
 text-transform: capitalize;
-color:rgb(66, 158, 194);
+color:rgb(7, 7, 7);
 font-size: bolder;
 
 
@@ -77,15 +81,6 @@ font-family: sans-serif;
 #section2{
   background: linear-gradient(-45deg, white 30%, rgb(12, 80, 68) 0%);
   }
-#section3{
-background: linear-gradient(-45deg, white 30%, rgb(19, 19, 10) 0%);
-} 
-#section4{
-  background: linear-gradient(-45deg, white 30%, rgb(182, 67, 138) 0%);
-  }
-  #section5{
-    background: linear-gradient(-45deg, white 30%, rgb(8, 119, 14) 0%);
-    } 
     
 p{
   
@@ -94,3 +89,35 @@ p{
 
  
 }    
+
+h1{
+
+  justify-content: center;
+
+}
+#section3{
+
+  justify-content: center;
+  align-items: center;
+
+}
+#section4{
+
+  justify-content: center;
+  align-items: center;
+
+
+}
+#section5{
+
+  justify-content: center;
+  align-items: center;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+
+html{
+  scroll-behavior: smooth;
+  animation-delay: 3ms;
+}
+

@@ -1,6 +1,10 @@
 
+
 body{
-  background-color: gray;
+  
+  background-color: beige;
+  background-size: 100%;
+  
 
 
 }
@@ -16,48 +20,25 @@ padding-bottom: 20px;
 
 
 
+
+
 }
 
 
-
-
-.navbar {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
- background-color: rgba(252 252 252);
- background-size: 100px;
-}
 li{
 
 margin-inline: 50px;
 list-style: none;
-font-size: large;
-font-weight: 30px;
-font-family: Courier;
-font-variant-caps: unicase;
+font-family: Arial, Helvetica, sans-serif ;
+font-weight: 100000;
+;
+
 
 
 
 }
 li :hover{
-
-  transform: scale(1.0);
-  background-color: rgb(245, 230, 29);
-  border-width: 300px;
-
-}
-
-
-
-
-a{
-text-decoration: none;
-text-transform: capitalize;
-color:rgb(7, 7, 7);
-font-size: bolder;
-
+  color: red;
 
 }
 section{
@@ -70,7 +51,7 @@ section{
 
 }
 #section1{
-background: linear-gradient(-45deg, white 30%, rgb(58, 58, 4) 0%);
+background: linear-gradient(25deg, rgb(202, 2, 2) 30%, rgb(241, 241, 238) 0%);
 
 
 font-family: sans-serif;
@@ -79,26 +60,17 @@ font-family: sans-serif;
 
 }
 #section2{
-  background: linear-gradient(-45deg, white 30%, rgb(12, 80, 68) 0%);
+  background: linear-gradient(25deg, white 30%, rgb(213, 245, 239) 0%);
+ 
+
   }
     
-p{
   
-  margin-top: 300px;
-  margin-left: 300px;
-
- 
-}    
-
-h1{
-
-  justify-content: center;
-
-}
 #section3{
 
   justify-content: center;
   align-items: center;
+  background: linear-gradient(25deg, rgb(148, 141, 141) 30%, rgb(241, 241, 238) 0%);
 
 }
 #section4{
@@ -119,5 +91,59 @@ h1{
 html{
   scroll-behavior: smooth;
   animation-delay: 3ms;
+  background-size: 100vh;
 }
+
+#fonts{
+
+font-weight: bolder;
+
+text-transform: uppercase;
+	background: linear-gradient(to right, #1ed1d1 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+  h2{
+
+    padding-top: 300px  ;
+    padding-left: 600px;
+    justify-content: center;
+
+  
+
+  }
+  
+
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+  #fonts:hover{
+    background-color: red;
+
+  }
+  .responsive{
+    width: 190px;
+    height: 220px;
+    border-radius: 50%;
+    margin-right: 30px;
+   
+    max-width: 100%;
+     height: auto;
+    
+
+  }
+.profiles{
+  padding-left: 0px;
+  justify-content: center;
+  align-items:center ;
+  display: block;
+  height: auto;
+
+}
+
+
+
 
